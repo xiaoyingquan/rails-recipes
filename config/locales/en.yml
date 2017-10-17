@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  bulk_update: Bulk_update
+  bulk_delete: Bulk_delete
   event_list: Event List
   admin:
     event_list: Admin Event List
