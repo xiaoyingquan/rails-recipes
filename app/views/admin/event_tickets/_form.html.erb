@@ -2,7 +2,7 @@
   <div id="errors_explanation">
     <ul>
       <% @ticket.errors.full_messages.each do |msg| %>
-        <li><%= mag %></li>
+        <li><%= msg %></li>
       <% end %>
     </ul>
   </div>
