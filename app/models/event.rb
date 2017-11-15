@@ -1,5 +1,7 @@
 class Event < ApplicationRecord
 
+  mount_uploader :logo, EventLogoUploader
+  
   scope :only_public, -> { where( :status => "public" ) }
   scope :only_available, -> { where( :status => ["public", "private"] ) }
 
